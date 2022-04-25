@@ -2,6 +2,6 @@
 
 A simple game of guess the number on html and pure JavaScript.
 
-# Watch
+# Review
 
 https://cloudmenson.github.io/Guess-the-number/
