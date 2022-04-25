@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/question-mark.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Guess the number</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .game__game-subtitle {
+        margin: 50px 0;
+      }
+      .game__btns-btn {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="game__title">Guess the number</h1>
+      <ul class="game__game-subtitle">
+        <li>
+          <p>Guessed number from 1 to 10.</p>
+        </li>
+        <li>
+          <p>You're given 5 attempts to guess.</p>
+        </li>
+        <li>
+          <p>Reload the page to start over.</p>
+        </li>
+      </ul>
+      <div class="game__btns">
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(1)"
+        >
+          1
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(2)"
+        >
+          2
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(3)"
+        >
+          3
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(4)"
+        >
+          4
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(5)"
+        >
+          5
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(6)"
+        >
+          6
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(7)"
+        >
+          7
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(8)"
+        >
+          8
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(9)"
+        >
+          9
+        </button>
+        <button
+          class="game__btns-btn waves-effect btn-small orange z-depth-2"
+          onclick="guessNum(10)"
+        >
+          10
+        </button>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
