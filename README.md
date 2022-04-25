@@ -1,4 +1,4 @@
-# Guess-the-number
+# Guess-the-number-game
 
 A simple game of guess the number on html and pure JavaScript.
 
