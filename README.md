@@ -1,6 +1,6 @@
 # Guess-the-number-game
 
-A simple game of guess the number on Html and pure JavaScript.
+A simple game of Guess the number on Html and pure JavaScript.
 
 # Review
 
